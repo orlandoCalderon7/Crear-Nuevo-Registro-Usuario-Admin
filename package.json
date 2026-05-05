@@ -1,0 +1,20 @@
+{
+  "name": "sistema-registro-usuarios",
+  "version": "1.0.0",  
+  "description": "Sistema de registro de usuarios",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+    
+  },
+  "keywords": [],
+  "author": "Grupo 3 - Desarrollo de Interfaces 3",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+}

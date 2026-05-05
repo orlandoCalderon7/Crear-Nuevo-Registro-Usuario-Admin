@@ -1,0 +1,70 @@
+# Dependencias
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Archivos compilados
+dist/
+build/
+*.js
+*.js.map
+!jest.config.js
+
+# Archivos de TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Variables de entorno
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Archivos temporales
+*.tmp
+*.temp
+.cache/
+.parcel-cache/
+
+# Coverage (si usas tests)
+coverage/
+*.lcov
+.nyc_output/
+
+# Archivos de sistema
+*.pid
+*.seed
+*.pid.lock
+
+# Archivos opcionales de npm
+.npm
+.eslintcache
+
+# Archivos de debug
+.vscode-test/
