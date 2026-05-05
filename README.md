@@ -117,7 +117,7 @@ npm install
 # 4. Ejecutar modo en desarrollo
 npm run dev
 
-### Uso
+### **Uso**
 Ejecutar en Modo Desarrollo
 npm run dev
 
@@ -127,7 +127,7 @@ npm run dev
 Windows (PowerShell)
 Remove-Item -Recurse -Force dist
 
-### Flujo de Trabajo
+### **Flujo de Trabajo**
 Descripción del Flujo
 Inicialización: El sistema carga la configuración desde sistema.config.ts
 Validación: Cada registro pasa por validaciones de email, nombre y datos específicos
@@ -136,7 +136,7 @@ Almacenamiento: Los datos se guardan en memoria simulando una base de datos
 Estadísticas: Se actualizan los contadores en tiempo real
 Respuesta: El sistema retorna un objeto ResultadoRegistro con el estado de la operación
 
-### Estructura de Datos
+### **Estructura de Datos**
 Tipos de Usuario
 
 Estudiante
@@ -171,14 +171,14 @@ Gestión de usuarios
 Configuración del sistema
 Generación de reportes
 
-### Validaciones Implementadas
+### **Validaciones Implementadas**
 Validación de Email
 Formato válido (debe contener @ y dominio)
 No permite emails duplicados en el sistema
 Conversión automática a minúsculas
 Eliminación de espacios en blanco
 
-### Características Técnicas
+### **Características Técnicas**
 Modularidad
 Separación clara de responsabilidades: Cada módulo tiene una función específica
 Bajo acoplamiento: Los módulos son independientes entre sí
@@ -205,7 +205,7 @@ Operaciones CRUD: Crear, leer, actualizar (simuladas)
 Estadísticas en tiempo real: Contadores actualizados automáticamente
 Búsqueda eficiente: Métodos de búsqueda optimizados
 
-### Tecnologías Utilizadas
+### **Tecnologías Utilizadas**
 Lenguajes y Runtime
 TypeScript 5.0+ - Lenguaje principal con tipado estático
 Node.js 16+ - Entorno de ejecución JavaScript
@@ -213,7 +213,7 @@ Herramientas de Desarrollo
 ts-node - Ejecución directa de TypeScript sin compilación previa
 TypeScript Compiler (tsc) - Compilador oficial de TypeScript
 
-### Créditos
+### **Créditos**
 Proyecto Académico
 Institución: Zegel IPAE
 Curso: Desarrollo de Interfaces 3
@@ -221,7 +221,7 @@ Ciclo: 4to Ciclo
 Año: 2026
 Semana: 4
 
-### Agradecimientos
+### **Agradecimientos**
 Profesores del curso por la guía técnica y conceptual
 Compañeros de equipo por la colaboración y feedback
 Comunidad de TypeScript por la excelente documentación
