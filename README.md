@@ -225,5 +225,5 @@ Semana: 4
 Profesores del curso por la guía técnica y conceptual
 Compañeros de equipo por la colaboración y feedback
 Comunidad de TypeScript por la excelente documentación
->>>>>>> 05898a3 (docs: Actualizar formato del README)
+
 
